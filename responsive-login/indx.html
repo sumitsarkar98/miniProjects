@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xm-4 text-center">
+                <div class="logo mb-2">
+                    <img src="./images/logo.png" class="img-fluid" alt="logo">
+                </div>
+
+                <form class="shadow bg-white rounded mb-2 p-5">
+                    <h3 class="text-dark fw-bolder fs-4 mb-2">Sign in to Hill-Top</h3>
+
+                    <div class="fw-normal .text-body-secondary mb-4">New Here? 
+                        <a href="#" class="text-primary fw-bold text-decoration-none">create new account</a>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="mt-2 text-end">
+                        <a href="#" class="text-primary fw-bold text-decoration-none">Forget Password ? </a>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+
+                    <div class="text-center .text-body-secondary text-uppercase mb-3">or</div>
+
+                    <a href="#" class=" btn btn-light login_with w-100 mb-3">
+                        <img src="./images/google-icon.svg" class="img-fluid me-3" alt="google">continue with google
+                    </a>
+
+                    <a href="#" class=" btn btn-light login_with w-100 mb-3">
+                        <img src="./images/facebook-icon.svg" class="img-fluid me-2" alt="google">continue with facebook
+                    </a>
+                    
+                    <a href="#" class=" btn btn-light login_with w-100 mb-3">
+                        <img src="./images/linkedin-icon.svg" class="img-fluid me-2" alt="google">continue with Linkedin
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

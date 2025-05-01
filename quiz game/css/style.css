@@ -1,0 +1,71 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+:root {
+    /* fonts */
+    --primary-font: "Poppins", sans-serif;
+    /* colors */
+    --primary-color: #e48736;
+    --secondary-color: #F0BB78;
+    /* background colors */
+    --primary-bg-color: #FF4545;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-bg-color);
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 90vw;
+    max-width: 800px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+#middle h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.quizgame h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.quizgame ol {
+    list-style: none;
+    padding: 0;
+}
+
+.quizgame ol li {
+    background: var(--secondary-color);
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.quizgame ol li:hover {
+    background: var(--primary-color);
+}

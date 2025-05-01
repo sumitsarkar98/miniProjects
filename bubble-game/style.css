@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boreder{
+    border: 1px solid red;
+}
+.main{    
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.panel{
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    margin: 20vh 20vw;
+    background-color: rgba(88, 146, 21, 0.603);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pannel-top{
+    width: 60vw;
+    height: 10vh;
+    background-color: rgba(70, 141, 4, 0.781);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5vh 3vw;
+    overflow: hidden;
+    row-gap: 5px;
+}
+.elem{
+    width: 220px;
+    height: 7vh;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.elem .box{
+    width: 100%;
+    background-color: bisque;
+    border-radius: 20px;
+    font-size: 1.2rem;
+
+}
+.elem h3{
+    width: 150px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.panel-bottom{
+    height: 50vh;
+    width: 60vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubbles-container{
+    height: 45vh;
+    width: 57vw;
+    background-color: brown;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.bubbles-container .bubbles {
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+
+}
